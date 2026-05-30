@@ -1,0 +1,17 @@
+[project]
+name = "sofia-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cudf-cu13"
+]
+
+[[tool.uv.index]]
+name = "nvidia"
+url = "https://pypi.nvidia.com"
+explicit = true
+
+[tool.uv.sources]
+cudf-cu13 = { index = "nvidia" }

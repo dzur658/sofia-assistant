@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ignore large datasets in datasets
+datasets/**/*.txt
+datasets/**/*.parquet
